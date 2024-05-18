@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyView", "StorageCompanyView\StorageCompanyView.csproj", "{8A570BF1-316C-4AF3-B2DE-BEED3132E98E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageCompanyView", "StorageCompanyView\StorageCompanyView.csproj", "{8A570BF1-316C-4AF3-B2DE-BEED3132E98E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyDataModels", "StorageCompanyDataModels\StorageCompanyDataModels.csproj", "{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageCompanyDataModels", "StorageCompanyDataModels\StorageCompanyDataModels.csproj", "{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyBusinessLogics", "StorageCompanyBusinessLogics\StorageCompanyBusinessLogics.csproj", "{AA209E1A-12E0-4401-942D-3A78B8A4AB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageCompanyBusinessLogics", "StorageCompanyBusinessLogics\StorageCompanyBusinessLogics.csproj", "{AA209E1A-12E0-4401-942D-3A78B8A4AB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyContracts", "StorageCompanyContracts\StorageCompanyContracts.csproj", "{AC578537-AFF1-4816-94DB-D7029C439634}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageCompanyContracts", "StorageCompanyContracts\StorageCompanyContracts.csproj", "{AC578537-AFF1-4816-94DB-D7029C439634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyDatabaseImplement", "StorageCompanyDatabaseImplement\StorageCompanyDatabaseImplement.csproj", "{8C68BD0B-294D-4F35-BF0B-6AD13EA82D6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AC578537-AFF1-4816-94DB-D7029C439634}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC578537-AFF1-4816-94DB-D7029C439634}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC578537-AFF1-4816-94DB-D7029C439634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C68BD0B-294D-4F35-BF0B-6AD13EA82D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C68BD0B-294D-4F35-BF0B-6AD13EA82D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C68BD0B-294D-4F35-BF0B-6AD13EA82D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C68BD0B-294D-4F35-BF0B-6AD13EA82D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
