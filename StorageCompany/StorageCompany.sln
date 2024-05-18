@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyView", "Stora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyDataModels", "StorageCompanyDataModels\StorageCompanyDataModels.csproj", "{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyBusinessLogics", "StorageCompanyBusinessLogics\StorageCompanyBusinessLogics.csproj", "{AA209E1A-12E0-4401-942D-3A78B8A4AB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCompanyContracts", "StorageCompanyContracts\StorageCompanyContracts.csproj", "{AC578537-AFF1-4816-94DB-D7029C439634}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A256C21-D0A8-4A6B-A670-BA359B8E8A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA209E1A-12E0-4401-942D-3A78B8A4AB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA209E1A-12E0-4401-942D-3A78B8A4AB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA209E1A-12E0-4401-942D-3A78B8A4AB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA209E1A-12E0-4401-942D-3A78B8A4AB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC578537-AFF1-4816-94DB-D7029C439634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC578537-AFF1-4816-94DB-D7029C439634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC578537-AFF1-4816-94DB-D7029C439634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC578537-AFF1-4816-94DB-D7029C439634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
